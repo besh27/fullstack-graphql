@@ -11,3 +11,6 @@
 - Scalars  - primitive value type built into GraphQL
 - Query - type that defines how clients can access data
 - Mutation- type that defines how clients can modify or create data
+
+---
+Move on to notes on building your first [GraphQL Server](02-graphql-server.md)

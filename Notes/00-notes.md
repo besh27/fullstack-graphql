@@ -37,3 +37,6 @@ created by FaceBook
 - Prisma
     - many many others
 
+---
+
+Move on to notes on [Schemas](01-schemas.md)
