@@ -54,12 +54,14 @@ returns
 }
 ```
 
-## Return values fr Mutation fields
+## Return values for Mutation fields
 - Dependent on your clients and use case
 - If using a client side GraphQL cache, you shoud return the exact value Queries return
 - We do this because the client side will need that new value to update the cache. 
 - When you update something, just return it because the client will have to make additional query to fetch the new data. 
   
-
-
 ---
+Review the [Transcript](../05-transcripts/13-mutation-type.txt)
+Review the [Exercise transcript](../05-transcripts/13-mutation-exercise.txt)  
+Review the [Solution transcript](../05-transcripts/13-mutation-solution.txt)  
+Move on to the next section about [Advanced SDL](../04-Advanced-SDL/00-enums.md)
