@@ -117,7 +117,11 @@ run ```npm run server``` and then visit ```localhost:4000``` to access the Graph
     }
 }
 ```
-will return 
+will return ...
+
+This is because we currently don't have any pets yet. 
+We need to specify the fields we want in the pet object or we will recieve an error. Always specify the fields within the object that is being queried. 
+
 ```
 {
   "data": {
@@ -125,8 +129,6 @@ will return
   }
 }
 ```
-This is because we currently don't have any pets yet. 
-We need to specify the fields we want in the pet object or we will recieve an error. Always specify the fields within the object that is being queried. 
 ---
 
 Review the [transcript](../05-transcripts/05-query-types-exercise.txt)  
