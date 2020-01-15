@@ -22,7 +22,7 @@ const createPetModel = db => {
         .write()
 
       return newPet
-    }
+    },
   }
 }
 
