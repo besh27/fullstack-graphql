@@ -13,4 +13,5 @@
 - Mutation- type that defines how clients can modify or create data
 
 ---
+Review the [transcript](../05-transcripts/01-schemas.txt)  
 Move on to notes on building your first [GraphQL Server](02-graphql-server.md)

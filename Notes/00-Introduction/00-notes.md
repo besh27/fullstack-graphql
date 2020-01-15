@@ -1,5 +1,4 @@
-# GRaphQL
-
+# GraphQL
 created by FaceBook
 
 ## Server Side
@@ -39,4 +38,5 @@ created by FaceBook
 
 ---
 
+Review the [transcript](../05-transcripts/00-introduction.txt)  
 Move on to notes on [Schemas](01-schemas.md)

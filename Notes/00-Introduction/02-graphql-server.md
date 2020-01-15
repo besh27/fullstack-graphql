@@ -69,3 +69,7 @@ result:
   }
 }
 ```
+
+---
+Review the [transcript](../05-transcripts/02-graphql-server.txt)  
+Awesome! Let's Move on to the next section about [Queries & Resolvers](../01-Queries_Resolvers/00-query-types.md)
