@@ -133,4 +133,4 @@ We need to specify the fields we want in the pet object or we will recieve an er
 
 Review the [transcript](../05-transcripts/05-query-types-exercise.txt)  
 Review the [Solution transcript](../05-transcripts/06-query-types-solution.txt)
-Move on to notes on [Query Type Additional Information](03-query-tpe-qa.md)
+Move on to the next section about [Arguments & Input Types](../02-Arguments-and-input-types/00-arguments.md)
