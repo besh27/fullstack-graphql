@@ -1,7 +1,7 @@
 # schema
 
 ## SDL
-- Using Schema Definirion Language (SDL)
+- Using Schema Definition Language (SDL)
 - Programmatically Creating a Schema using language constructs
 
 ## Basic Parts of a Schema
