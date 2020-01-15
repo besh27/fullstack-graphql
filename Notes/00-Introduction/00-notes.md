@@ -36,6 +36,10 @@ created by FaceBook
 - Prisma
     - many many others
 
+## VSCode Extensions
+- Apollo GraphQL
+    - This will give better colorization and highlighting within template query strings. 
+
 ---
 
 Review the [transcript](../05-transcripts/00-introduction.txt)  

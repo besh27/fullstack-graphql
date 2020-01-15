@@ -42,7 +42,7 @@ Bare minimum:
 - Query (recommended to just use the keyword "Query");
 - Resolver
 
-! required fields.  
+! means that field cannot be null. Thus it's a required field. GraphQL will throw an exception if null. 
 example: The friends property is required to have freinds and required for that type to be an array.
 
 ---
