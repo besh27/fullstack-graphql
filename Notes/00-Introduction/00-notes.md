@@ -37,6 +37,7 @@ created by FaceBook
     - many many others
 
 ## VSCode Extensions
+- GraphQL
 - Apollo GraphQL
     - This will give better colorization and highlighting within template query strings. 
 

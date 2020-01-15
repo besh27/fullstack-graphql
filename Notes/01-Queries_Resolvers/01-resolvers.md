@@ -28,6 +28,7 @@ This is essensially what is build in our first [Demo file](../../api/src/demos/d
 
 You can serve almost anything with this model, as long as the resolver data types match schema. 
 
+
 ---
 
 Review the [transcript](../05-transcripts/04-resolvers.txt)  
