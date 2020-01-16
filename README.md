@@ -1,7 +1,7 @@
 <div align="center">
 <p>
 <a href="https://graphql.org/">
-    <img alt="graphql" src="./static/gaphql.png" width="60" />
+    <img alt="graphql" src="static/graphql.png" />
 </a>
 </p>
 
