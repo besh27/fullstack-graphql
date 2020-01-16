@@ -38,3 +38,4 @@ Note:
 - We also need to make a field level resolver for the Pet -> user relationship. 
 
 Review the [Transcript](../05-transcripts/19-relationships.txt)
+Move on to the next section about [Authentication](04-authentication.md)

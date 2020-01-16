@@ -7,8 +7,9 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   context() {
-    const user = db.get('user').value()
-    return {models, db, user}
+    // throw new Error('Not Auth')
+     const user = db.get('user').value()
+     return {models, db, user}
   }
 })
 
