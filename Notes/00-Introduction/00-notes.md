@@ -1,4 +1,5 @@
 # GraphQL
+
 created by FaceBook
 
 ## Server Side
@@ -11,11 +12,11 @@ created by FaceBook
 - schema
 
 ## Clience Side
- 
+
 - Queries and Query Definitions
 - Mutations
 - Fragments
-    - little pieces of both Queries and Mutations. 
+  - little pieces of both Queries and Mutations.
 
 ## Where does GraphQL fit into an App Architecture
 
@@ -28,20 +29,21 @@ created by FaceBook
 - Servers
 - Apollo server
 - GraphQL Yoga
-    - Others
+  - Others
 - Services
 - Amplify
-    - others
+  - others
 - Tools
 - Prisma
-    - many many others
+  - many many others
 
 ## VSCode Extensions
+
 - GraphQL
 - Apollo GraphQL
-    - This will give better colorization and highlighting within template query strings. 
+  - This will give better colorization and highlighting within template query strings.
 
----
+## Next Steps
 
 Review the [transcript](../05-transcripts/00-introduction.txt)  
 Move on to notes on [Schemas](01-schemas.md)

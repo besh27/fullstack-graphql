@@ -9,45 +9,46 @@ go back to the schema.js file
 - add an input for the pets query that allows a user to filter by pet type.
 - create a second query for one single pet by name or ID.
 
-See the api/src director for the results. 
+See the api/src director for the results.
 
 schema.js
-```
-const { gql } = require('apollo-server')
+
+```javascript
+const { gql } = require("apollo-server");
 
 /**
  * Type Definitions for our Schema using the SDL.
  */
 const typeDefs = gql`
-  type User{
-      id: ID!
-      username: String!
+  type User {
+    id: ID!
+    username: String!
   }
-  type Pet{
-      id: String!
-      createdAt: String!
-      name: String!
-      type: String
+  type Pet {
+    id: String!
+    createdAt: String!
+    name: String!
+    type: String
   }
 
   input PetInput {
-      name: String
-      type: String
-      id: ID
+    name: String
+    type: String
+    id: ID
   }
 
   type Query {
-      pets(input: PetInput): [Pet]!
-      pet(input: PetInput): Pet
+    pets(input: PetInput): [Pet]!
+    pet(input: PetInput): Pet
   }
 `;
 
-module.exports = typeDefs
+module.exports = typeDefs;
 ```
-
 
 resolvers.js
-```
+
+```javascript
 
 module.exports = {
   Query: {
@@ -60,19 +61,21 @@ module.exports = {
   },
 ```
 
-run ```npm run server``` and visitor ```localhost:4000```
+run `npm run server` and visitor `localhost:4000`
 
-```
+```javascript
 {
     pets(input: {type: "Dog"}) {
-    type
-    name
-    id
+      type
+      name
+      id
     }
 }
 ```
+
 returns
-```
+
+```javascript
 {
   "data": {
     "pets": [
@@ -96,18 +99,21 @@ returns
 }
 ```
 
-The pet query type: 
-```
+The pet query type:
+
+```javascript
 {
     pet(input: {name: "Molly", type: "Cat"}) {
-    type
-    name
-    id
+      type
+      name
+      id
     }
 }
 ```
+
 returns
-```
+
+```javascript
 {
   "data": {
     "pet": {
@@ -119,9 +125,7 @@ returns
 }
 ```
 
-
----
-
+## Next Steps
 Review the [Exercise transcript](../05-transcripts/10-arguments-input-types-exercise.txt)  
 Review the [Solution transcript](../05-transcripts/10-arguments-input-types-solutiontxt)  
 Move on to the next section about [Mutations](../03-Mutations/00-mutation-types.md)
