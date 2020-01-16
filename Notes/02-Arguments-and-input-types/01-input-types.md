@@ -33,4 +33,4 @@ input is referenced as the second parameter.
 ## Next Steps
 
 Review the [transcript](../05-transcripts/09-input-types.txt)  
-Move on to notes on [Input Types](02-arguments-input-types-demo.md)
+Move on to notes on [Input Types](02-arguments-input-types-exercise.md)
