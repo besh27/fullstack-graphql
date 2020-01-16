@@ -8,37 +8,44 @@
       "id": "1",
       "createdAt": 12312123123121,
       "name": "Ollie",
-      "type": "Dog"
+      "type": "Dog",
+      "teethSize": 1
     },
     {
       "id": "2",
       "createdAt": 12312123123123,
       "name": "Daryl",
-      "type": "Dog"
+      "type": "Dog",
+      "teethSize": 2
     },
     {
       "id": "3",
       "createdAt": 12312123123123,
       "name": "Molly",
-      "type": "Dog"
+      "type": "Dog", 
+      "teethSize": 3
     },
     {
       "id": "4",
       "createdAt": 12312123123124,
       "name": "Dolly",
-      "type": "Cat"
+      "type": "Cat",
+      "furryness": 1
+
     },
     {
       "id": "5",
       "createdAt": 12312123123125,
       "name": "Molly",
-      "type": "Cat"
+      "type": "Cat",
+      "furryness": 11
     },
     {
       "id": "6",
       "createdAt": 12312123123126,
       "name": "Golly",
-      "type": "Cat"
+      "type": "Cat",
+      "furryness": 8
     },
     {
       "id": "P8gleqgQuWpKdd9FZVUG3",

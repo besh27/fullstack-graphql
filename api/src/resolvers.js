@@ -17,6 +17,13 @@ module.exports = {
       pet = ctx.models.Pet.create(input)
       return pet
     }
+  },
+  Pet: {
+    __resolveType(pet) {
+      if (pet.furryness) {
+        return 'HousePet'
+      } else { return 'WildAnimal' }
+    }
   }
 
   // Mutation: {
