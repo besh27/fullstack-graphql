@@ -20,8 +20,8 @@ created by FaceBook
 
 ## Where does GraphQL fit into an App Architecture
 
-- A graphQL server with a connected DB (most greenfields)
-- A grphQL server as a layer in front of many 3rd party services and connects them all with on GraphQL API
+- A GraphQL server with a connected DB (most greenfields)
+- A GraphQL server as a layer in front of many 3rd party services and connects them all with on GraphQL API
 - A hybrid approach where a GraphQL server has a connected DB and also communicates with 3rd party services
 
 ## Node GraphQL

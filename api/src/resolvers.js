@@ -9,7 +9,14 @@ module.exports = {
       return ctx.models.Pet.findMany(input)
     },
     pet(_, { input }, ctx) {
+      console.log("Query => pet")
       return ctx.models.Pet.findOne(input)
+    },
+    user(_, {input}, ctx ){
+      return ctx.models.User.findMany(input)
+    },
+    user(_, {input}, ctx){
+      return ctx.models.User.find(input)
     }
   },
   Mutation: {
@@ -19,24 +26,15 @@ module.exports = {
     }
   },
   Pet: {
-    __resolveType(pet) {
-      if (pet.furryness) {
-        return 'HousePet'
-      } else { return 'WildAnimal' }
+    owner(pet, __, ctx) {
+      console.log('Pet Owner')
+      return ctx.models.User.findOne()
+    }
+  },
+  User: {
+    pets(user, __, ctx) {
+      console.log('Owner of Pets')
+      return ctx.models.Pet.findMany()
     }
   }
-
-  // Mutation: {
-
-  // },
-  // Pet: {
-  //   img(pet) {
-  //     return pet.type === 'DOG'
-  //       ? 'https://placedog.net/300/300'
-  //       : 'http://placekitten.com/300/300'
-  //   }
-  // },
-  // User: {
-
-  // }
 }

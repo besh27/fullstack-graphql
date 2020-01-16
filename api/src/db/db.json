@@ -9,85 +9,97 @@
       "createdAt": 12312123123121,
       "name": "Ollie",
       "type": "Dog",
-      "teethSize": 1
+      "teethSize": 1,
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "2",
       "createdAt": 12312123123123,
       "name": "Daryl",
       "type": "Dog",
-      "teethSize": 2
+      "teethSize": 2,
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "3",
       "createdAt": 12312123123123,
       "name": "Molly",
-      "type": "Dog", 
-      "teethSize": 3
+      "type": "Dog",
+      "teethSize": 3,
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "4",
       "createdAt": 12312123123124,
       "name": "Dolly",
       "type": "Cat",
-      "furryness": 1
-
+      "furryness": 1,
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "5",
       "createdAt": 12312123123125,
       "name": "Molly",
       "type": "Cat",
-      "furryness": 11
+      "furryness": 11,
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "6",
       "createdAt": 12312123123126,
       "name": "Golly",
       "type": "Cat",
-      "furryness": 8
+      "furryness": 8,
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "P8gleqgQuWpKdd9FZVUG3",
       "createdAt": 1579120033862,
       "name": "Sammy",
-      "type": "Cat"
+      "type": "Cat",
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "kuauJxW5f5vxCRJSvWuRl",
       "createdAt": 1579120042029,
       "name": "Benji",
-      "type": "Dog"
+      "type": "Dog",
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "8k3YS_tckx_7RHgFSnUij",
       "createdAt": 1579120068344,
       "name": "Raj",
-      "type": "Dog"
+      "type": "Dog",
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "6wj3LhhbJMU7LDwo98By2",
       "createdAt": 1579120075512,
       "name": "William",
-      "type": "Dog"
+      "type": "Dog",
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "ddm9IhIQ8IdbZYr7_HTJm",
       "createdAt": 1579120082894,
       "name": "Petite",
-      "type": "Cat"
+      "type": "Cat",
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "xWpBM35LehKbMt4qEsCCA",
       "createdAt": 1579120432796,
       "name": "Benjamin",
-      "type": "Dog"
+      "type": "Dog",
+      "user": "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "xzO9gFOepyIR3ujGlj-SM",
       "createdAt": 1579120442852,
       "name": "Sarra",
-      "type": "Cat"
+      "type": "Cat",
+      "user": "jBWMVGjm50l6LGwepDoty"
     }
   ]
 }

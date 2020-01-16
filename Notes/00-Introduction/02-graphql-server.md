@@ -46,7 +46,7 @@ example: The friends property is required to have freinds and required for that 
 
 ---
 
-Run `npm run demo` to open the graphql playground at http://localhost:4000
+Run `npm run demo` to open the GraphQL playground at http://localhost:4000
 
 type in a simple query:
 
